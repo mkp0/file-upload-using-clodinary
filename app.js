@@ -11,7 +11,7 @@ submit.addEventListener("click", (e) => {
   fd.append("file", myfile);
   fd.append("upload_preset", PRESET);
 
-  fetch(clode_base_url, {
+  fetch(API_Base_URL, {
     method: "POST",
     body: fd,
   })
